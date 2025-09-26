@@ -26,7 +26,7 @@ function SpinWheel() {
     </div>
 </div>
          
- <section className="flex justify-center items-center flex-col lg:flex-row items-center p-6  rounded-lg text-center lg:text-left gap-8">
+ <section className="flex justify-center  flex-col lg:flex-row items-center p-6  rounded-lg text-center lg:text-left gap-8">
   
   {/* Left Side: Spin Wheel */}
   <div className="flex flex-col items-center lg:items-start">
