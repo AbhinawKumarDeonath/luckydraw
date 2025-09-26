@@ -148,9 +148,9 @@ const LuckyDrawWheel = () => {
     if (!selectedGift) return;
 
 
-    const imgUrl = "https://beletime.com.my/wp-content/uploads/2024/12/bele-year-end-sale-4.jpeg";
-    const text = `${imgUrl}🎉 I just won ${selectedGift.name} in the Lucky Draw! Try your luck too!`;
-    const url = window.location.href;
+    // const imgUrl = "https://beletime.com.my/wp-content/uploads/2024/12/bele-year-end-sale-4.jpeg";
+    const text = `I just won ${selectedGift.name} in the Lucky Draw! Try your luck too!`;
+    const url = "https://sindhistore.netlify.app/";
     
     let shareUrl = '';
     switch (platform) {
