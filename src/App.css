@@ -1,0 +1,24 @@
+.fade-box {
+  margin-top: 20px;
+  padding: 10px;
+  opacity: 1;
+  transition: opacity 1s ease; /* smooth fade */
+}
+
+.fade-box.fade-out {
+  opacity: 1;
+}
+.desktop{
+  display: block;
+}
+.mobile{
+  display: none;
+}
+@media (max-width: 768px) {
+  .desktop{
+    display: none;
+  }
+  .mobile{
+    display: block;
+  }
+}
